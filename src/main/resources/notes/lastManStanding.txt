@@ -1,0 +1,45 @@
+Title: The Last Man Standing
+
+
+
+Caracteristicas do Jogador:
+Inputs
+- Height [1.40; 2.10]
+- Weight [50; 120]
+- Age Group [Young; Medium; Old]  (Young - [18; 30]) (Medium - [31; 50]) (Old - [51; 65])
+
+
+- Stamina: [0; 10] - 	(Variàvel Continua - FDP Exponencial) - Condicionado pelo Weight and Height (Lambda = W/H)
+- Strength: [2; 4; 6; 8; 10]      (Variàvel Discreta - )
+- Agility: [2; 4; 6; 8; 10]	(Variàvel Discreta - )
+- Power: 		(Variàvel Misturada) Condicionado pela Stamina e Strength
+- Defense: [2; 8]	(Variàvel Continua)	(Condicionada pela Stamina e Life)
+- Life: [0; 100]     	(Variável Continua) - Condicionada pela Age Group
+
+
+
+Physical Skills
+- Stamina - Ability of body systems to process, deliver, store, and utilize energy.
+- Strength - Ability of a muscular unit, or combination of muscular units, to apply force.
+- Flexibility - The ability to maximize the range of motion at a given joint.
+- Power - Ability of muscular unit, or combination of muscular units, to apply maximum force in minimum time.
+- Speed - Ability to minimize the time cycle of repeated movement.
+- Coordination - Ability to combine several distinct movement patterns into a singular distinct movement.
+- Agility - The ability to minimize transition time from one movement pattern to another.
+- Balance - Ability to control the placement of the bodies center of gravity in relation to its support base.
+- Accuracy - The ability to control movement in a given direction or at a given intensity.
+- Defense 
+
+
+Power ligado ao botão HIT.
+
+Stamina e Strenght, duas variaveis aleatórias a 
+
+- Stamina varia em função do Peso e Altura. (Variavel Continua)
+
+
+Summary: 
+Last Man Standing consists on a 2 player fighter game and has the name says only one player will stand at the end, 
+which will be the winner of the match.
+The 2 players will have at the beginning 100% health and during the match there will exist random variables that 
+will define the physical skill being applied to the opponent 
